@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <title>The Generics: Store</title>
+</head>
+<body onload="storeStart()">
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>  
+    </nav>
+    <section id="nav-background"></section>
+    <div id="main-picture">
+        <h1 class="animate__animated animate__fadeIn">The Generics</h1>
+    </div>
+
+    <main id="wrapper">
+        <h2 id="store-header">Store</h2>
+        <section id="store">
+            <div class="item">
+                <div class="item-name">Album 1</div>
+                <img class="item-picture" src="./images/35mm-acrylic-black-and-white-color-2733337.jpg" alt="Album 1">
+                <div class="item-caption">
+                    <p class="item-price">$12.99</p>
+                    <span class="hint--bottom" aria-label="Click me!">
+                        <button type="submit" class="item-button">Add to cart</button>
+                    </span>
+                </div>  
+            </div>
+            
+            <div class="item">
+                <div class="item-name">Album 2</div>
+                <img class="item-picture" src="./images/close-up-photo-of-red-neon-light-signage-3690005.jpg" alt="Album 2">
+                <div class="item-caption">
+                    <p class="item-price">$9.99</p>
+                    <button type="submit" class="item-button">Add to cart</button>
+                </div>  
+            </div>
+
+            <div class="item">
+                <div class="item-name">Album 3</div>
+                <img class="item-picture" src="./images/pexels-david-gierth-3958681.jpg" alt="Album 3">
+                <div class="item-caption">
+                    <p class="item-price">$7.99</p>
+                    <button type="submit" class="item-button">Add to cart</button>
+                </div>  
+            </div>
+            <div class="item">
+                <div class="item-name">Album 4</div>
+                <img class="item-picture" src="./images/pexels-timo-volz-1771338.jpg" alt="Album 4">
+                <div class="item-caption">
+                    <p class="item-price">$8.99</p>
+                    <button type="submit" class="item-button">Add to cart</button>
+                </div>  
+            </div>
+            <div class="item">
+                <div class="item-name">Green hoodie</div>
+                <img class="item-picture" src="./images/hoodie.jpg" alt="Green hoodie">
+                <div class="item-caption">
+                    <p class="item-price">$15.99</p>
+                    <button type="submit" class="item-button">Add to cart</button>
+                </div>  
+            </div>
+            <div class="item">
+                <div class="item-name">Black cap</div>
+                <img class="item-picture" src="./images/cap.jpg" alt="Black cap">
+                <div class="item-caption">
+                    <p class="item-price">$10</p>
+                    <button type="submit" class="item-button">Add to cart</button>
+                </div>  
+            </div>
+        </section>
+
+        <section class="hide" id="cart-all">
+            <h3 id="cart-header">Cart</h3>
+            
+            <section id="cart">
+                <div id="cart-main-section">
+                    <div class="cart-item">
+                        <div id="cart-item-desc">ITEM</div>
+                        <div id="cart-price">PRICE</div>
+                        <div id="cart-quantity">QUANTITY</div>
+                    </div>
+                    <!-- <div class="cart-item">
+                        <span><img src="./images/cap.jpg" class="cart-item-image"></span>
+                        <span class="cart-item-name">Cap</span>
+                        <span class="cart-item-price">$9.99</span>
+                        <span class="cart-item-quantity">1</span>
+                        <div class="cart-quantity-button">
+                            <button type="submit" class="cart-quantity-less">-</button>
+                            <button type="submit" class="cart-quantity-more">+</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <span><img src="./images/close-up-photo-of-red-neon-light-signage-3690005.jpg" class="cart-item-image"></span>
+                        <span class="cart-item-name">Album 2</span>
+                        <span class="cart-item-price">$8.99</span>
+                        <span class="cart-item-quantity">1</span>
+                        <div class="cart-quantity-button">
+                            <button class="cart-quantity-less" type="submit">-</button>
+                            <button class="cart-quantity-more" type="submit">+</button>
+                        </div>
+                    </div> -->
+                </div>
+                <div id="cart-summary-section">
+                    <span>SUMMARY:</span>
+                    <span id="cart-summary-cash">$0</span>
+                    <button type="submit" onclick="popin()">PAY</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <h3>The Generics</h3>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="./images/Facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.spotify.com" target="_blank"><img src="./images/Spotify.png" alt="Spotify"></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><img src="./images/Youtube.png" alt="Youtube"></a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

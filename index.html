@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <title >The Generics</title>
+</head>
+<body onload="indexStart()">
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>  
+    </nav>
+    <section id="nav-background"></section>
+    <div id="main-picture">
+        <h1 class="animate__animated animate__fadeIn">The Generics</h1>
+    </div>
+
+    <main id="wrapper">
+        <h2 id="tour-header">New Gen Tour</h2>
+
+        <section class="ticket">
+            <h3 id="tour-date">Date</h3>
+            <h3 id="tour-place">Place</h3>
+            <h3 id="tour-ticket">Tickets</h3>
+        </section>
+
+        <section class="ticket isClosed">
+            <h4 class="ticket-date">June 1st</h4>
+            <h4 class="ticket-place">Warsaw</h4>
+            <button type="submit" class="ticket-availability">Avalible</button>
+        </section>
+        <!-- <form action="post" class="ticket-user-info hide animate__animated animate__fadeInLeft"> -->
+            <form class="ticket-user-info hide animate__animated animate__fadeInLeft">
+            <label for="myFName">* First Name:</label><input type="text" id="myFName" name="myFName" required="required">
+            <label for="myLName">* Last Name:</label><input type="text" id="myLName" name="myLName" required="required">
+            <label for="myAge">* Age:</label><input type="number" id="myAge" name="myAge" min="10" max="100" step="1" value="30" required="required">
+            <label for="myEmail">* Email</label><input type="email" id="myEmail" name="myEmail" required="required">
+            <p>Required elements *</p>
+            <button type="submit">Next step</button>
+        </form>
+
+        <section class="ticket isClosed">
+            <h4 class="ticket-date">June 1st</h4>
+            <h4 class="ticket-place">Warsaw</h4>
+            <button type="submit" class="ticket-availability">Avalible</button>
+        </section>
+        <!-- <form action="post" class="hide ticket-user-info animate__animated animate__fadeInLeft"> -->
+        <form class="ticket-user-info hide animate__animated animate__fadeInLeft">
+            <label for="myFName">* First Name:</label><input type="text" id="myFName" name="myFName" required="required">
+            <label for="myLName">* Last Name:</label><input type="text" id="myLName" name="myLName" required="required">
+            <label for="myAge">* Age:</label><input type="number" id="myAge" name="myAge" min="10" max="100" step="1" value="30" required="required">
+            <label for="myEmail">* Email</label><input type="email" id="myEmail" name="myEmail" required="required">
+            <p>Required elements *</p>
+            <button type="submit">Next step</button>
+        </form>
+
+        <section class="ticket isClosed">
+            <h4 class="ticket-date">June 1st</h4>
+            <h4 class="ticket-place">Warsaw</h4>
+            <button type="submit" class="ticket-availability">Avalible</button>
+        </section>
+        <form class="ticket-user-info hide animate__animated animate__fadeInLeft">
+        <!-- <form action="post" class="hide ticket-user-info animate__animated animate__fadeInLeft"> -->
+            <label for="myFName">* First Name:</label><input type="text" id="myFName" name="myFName" required="required">
+            <label for="myLName">* Last Name:</label><input type="text" id="myLName" name="myLName" required="required">
+            <label for="myAge">* Age:</label><input type="number" id="myAge" name="myAge" min="10" max="100" step="1" value="30" required="required">
+            <label for="myEmail">* Email</label><input type="email" id="myEmail" name="myEmail" required="required">
+            <p>Required elements *</p>
+            <button type="submit">Next step</button>
+        </form>
+
+        <section class="ticket isClosed">
+            <h4 class="ticket-date">June 1st</h4>
+            <h4 class="ticket-place">Warsaw</h4>
+            <button type="submit" class="ticket-availability">Avalible</button>
+        </section>
+        <form class="ticket-user-info hide animate__animated animate__fadeInLeft">
+        <!-- <form action="post" class="hide ticket-user-info animate__animated animate__fadeInLeft"> -->
+            <label for="myFName">* First Name:</label><input type="text" id="myFName" name="myFName" required="required">
+            <label for="myLName">* Last Name:</label><input type="text" id="myLName" name="myLName" required="required">
+            <label for="myAge">* Age:</label><input type="number" id="myAge" name="myAge" min="10" max="100" step="1" value="30" required="required">
+            <label for="myEmail">* Email</label><input type="email" id="myEmail" name="myEmail" required="required">
+            <p>Required elements *</p>
+            <button type="submit">Next step</button>
+        </form>
+
+        <section class="ticket isClosed">
+            <h4 class="ticket-date">June 1st</h4>
+            <h4 class="ticket-place">Warsaw</h4>
+            <button type="submit" class="ticket-availability">Avalible</button>
+        </section>
+        <form class="ticket-user-info hide animate__animated animate__fadeInLeft">
+        <!-- <form action="post" class="hide ticket-user-info animate__animated animate__fadeInLeft"> -->           
+            <label for="myFName">* First Name:</label><input type="text" id="myFName" name="myFName" required="required">
+            <label for="myLName">* Last Name:</label><input type="text" id="myLName" name="myLName" required="required">
+            <label for="myAge">* Age:</label><input type="number" id="myAge" name="myAge" min="10" max="100" step="1" value="30" required="required">
+            <label for="myEmail">* Email</label><input type="email" id="myEmail" name="myEmail" required="required">
+            <p>Required elements *</p>
+            <button type="submit">Next step</button>
+        </form>
+
+        <section class="ticket isClosed">
+            <h4 class="ticket-date">June 1st</h4>
+            <h4 class="ticket-place">Warsaw</h4>
+            <button type="submit" class="ticket-availability">Avalible</button>
+        </section>
+        <form class="ticket-user-info hide animate__animated animate__fadeInLeft">
+        <!-- <form action="post" class="hide ticket-user-info animate__animated animate__fadeInLeft"> -->
+            <label for="myFName">* First Name:</label><input type="text" id="myFName" name="myFName" required="required">
+            <label for="myLName">* Last Name:</label><input type="text" id="myLName" name="myLName" required="required">
+            <label for="myAge">* Age:</label><input type="number" id="myAge" name="myAge" min="10" max="100" step="1" value="30" required="required">
+            <label for="myEmail">* Email</label><input type="email" id="myEmail" name="myEmail" required="required">
+            <p>Required elements *</p>
+            <button type="submit">Next step</button>
+        </form>
+    </main>
+
+    <footer>
+        <h3><a href="index.html">The Generics</a></h3>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="./images/Facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.spotify.com" target="_blank"><img src="./images/Spotify.png" alt="Spotify"></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><img src="./images/Youtube.png" alt="Youtube"></a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
