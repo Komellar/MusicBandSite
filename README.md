@@ -1,4 +1,10 @@
-Music Band site 
-html5, css3, JavaScript
-Made by Komellar
-GitHub link: https://github.com/Komellar
+# Music Band site
+Fake music band website with fake shop.
+
+## See it live in GitHub Pages
+https://komellar.github.io/MusicBandSite-html-css-js/
+
+## Build with
+* html5 
+* css3 
+* JavaScript
